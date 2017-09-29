@@ -1,6 +1,6 @@
 #ask the to enter 3 numbers
 #save the numbers in a variables
-value1 =int (input("please enter the first number\n"))
+value1 = int (input("please enter the first number\n"))
 value2 = int (input("please enter the second number\n"))
 value3 = int (input("please enter the third number\n"))
 #check to see if those numbers can form tringle
@@ -15,7 +15,7 @@ def theorem(value1,value2,value3):
         print ("it works we have a triangle")
 
     else:
-        print ("this will not work")
+        print ("this will ")
 
 theorem(value1,value2,value3)
 #(a*a)+(b*b) == (c*c)
