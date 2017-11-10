@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<style>
+
+body {
+    background-image: url("../static/trans.jpg");
+    font-size: 20px;
+    color: blue;
+    font-family: sans-serif;
+    align-content: flex-start;
+
+
+
+}
+
+h1 {
+    font-size: 40px
+    color : red;
+    font-family: arial;
+    align-content: center;
+    align-self: center;
+}
+
+</style>
+<h1><center> WELCOME TO MY FAN PAGE!!!</center></h1>
+<h2></h2>
+<body>
+    <form action = "/welcome" method="POST" id = "form">
+
+        <div>First Name: <input type="text" name="fname"></div>
+        <br/>
+
+        <div>Last Name: <input type="text" name="lname"></div>
+        <br/>
+
+        Do you think Devon is cool?
+        <select name = "like" form"form">
+            <option value = "yes">Yes</option>
+            <option value = "no">No</option>
+        </select>
+        <button>Submit</button>
+    </form>
+
+
+</body>
+
+
+</html>

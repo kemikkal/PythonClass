@@ -142,7 +142,30 @@ class items(object):
         while x != 0:
             #prevents the user from entering an invalid option
             if choice != rprice and choice != wprice:
-                print(rprice,wprice,choice)
+
+
+
+
+
++ -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 choice = input(f"Input error!. Make sure you are typing in one of the two prices for the item\nplease enter one of the values\n")
 
             else:
