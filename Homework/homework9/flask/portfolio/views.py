@@ -1,3 +1,8 @@
+
+
+
+
+
 from flask import Flask, render_template, request
 from . import app
 fname = ""
@@ -20,7 +25,7 @@ def welcome():
         if like == "yes":
             return render_template('welcome.html' , fname = fname , lname = lname)
         else:
-            
+
             return render_template('sad.html' , fname = fname , lname = lname)
 
 
