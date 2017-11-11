@@ -154,7 +154,7 @@ def doubleList(numberlist):
 
 def main():
 
-    #question1(l)
+    question1(l)
     #question2(l2)
     #question3()
     #for question 5 u can use either dic2 or dic3 to check the code
